@@ -1,0 +1,13 @@
+<li>
+  <% if defined?(size) %>
+    <%= gravatar_for user, size: size %>
+  <% else %>
+    <%= gravatar_for user %>
+  <% end %>
+  <%= link_to user.name, user %>
+
+  <% if current_user&.admin? && !current_user?(user)  %>
+    | <%= link_to "Delete", user, data: { "turbo-method": :delete,
+                                          turbo_confirm: "You sure?" } %>
+  <% end %>
+</li>

@@ -1,0 +1,15 @@
+user_lana:
+  follower: user
+  followed: lana
+
+user_malory:
+  follower: user
+  followed: malory
+
+lana_user:
+  follower: lana
+  followed: user
+
+archer_user:
+  follower: archer
+  followed: user

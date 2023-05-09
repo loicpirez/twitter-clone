@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="StaticPagesControllerTest"
+             filepath="test/controllers/static_pages_controller_test.rb"
+             skipped="0" failures="0" errors="0" tests="3" assertions="6"
+             time="0.13984099999970567">
+    <testcase name="test_should_get_about" lineno="20"
+              classname="StaticPagesControllerTest" assertions="2"
+              time="0.10612399999990885"
+              file="test/controllers/static_pages_controller_test.rb">
+    </testcase>
+    <testcase name="test_should_get_help" lineno="14"
+              classname="StaticPagesControllerTest" assertions="2"
+              time="0.013990999999805354"
+              file="test/controllers/static_pages_controller_test.rb">
+    </testcase>
+    <testcase name="test_should_get_home" lineno="8"
+              classname="StaticPagesControllerTest" assertions="2"
+              time="0.019725999999991473"
+              file="test/controllers/static_pages_controller_test.rb">
+    </testcase>
+  </testsuite>
+</testsuites>
