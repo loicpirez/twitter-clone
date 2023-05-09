@@ -1,5 +1,8 @@
 # Ruby on Rails Tutorial sample application
 
+![Screenshot of the application](https://github.com/loicpirez/twitter-clone/blob/main/Screenshot.png?raw=true)
+
+
 This is the sample application for the
 [*Ruby on Rails Tutorial:
 Learn Web Development with Rails*](https://www.railstutorial.org/)
@@ -41,5 +44,3 @@ $ rails server
 
 For more information, see the
 [*Ruby on Rails Tutorial* book](https://www.railstutorial.org/book).
-
-![Screenshot of the application](https://raw.github.com/loicpirez/twitter-clone/main/Screeenshot.png)
